@@ -28,6 +28,7 @@ import 'package:firebase_storage/firebase_storage.dart'as firebase_storage;
 
 class SocialCubit extends Cubit<SocialStates>{
   SocialCubit():super (SocialInitialState());
+  //hi mosbah
   static SocialCubit get(context)=>BlocProvider.of(context);
   Map<String, int> postsLikesbymap = ({});
   Map<String, int> postsCommentsbymap = ({});
